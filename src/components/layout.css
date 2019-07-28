@@ -119,6 +119,12 @@ optgroup {
 button,
 input {
   overflow: visible;
+  border:1px solid lightgray;
+}
+
+input:not([type="checkbox"]):focus{
+  outline:0;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, .5);
 }
 button,
 select {
